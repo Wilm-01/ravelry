@@ -16,7 +16,8 @@
       },
       {
         "matches": ["*://*.ravelry.com/patterns/search*"],
-        "js": ["search.js", "yardage_warn.js"]
+        "js": ["search.js", "yardage_warn.js"],
+        "css": ["yardage_warn.css"]
       }
     ],
 

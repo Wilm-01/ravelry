@@ -16,11 +16,3 @@ var main = function() {
 }
 
 setTimeout(main, 3000);
-
-/*
-var newElement = document.createElement('span');
-            var newText = document.createTextNode("{{" + nameToWeight(removeBreaks(weightName)) + "}}");
-            newElement.appendChild(newText);
-            field.insertBefore(newElement, values[0]);
-
-*/

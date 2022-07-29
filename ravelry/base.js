@@ -18,10 +18,10 @@ var nameToWeight = function(input, just_number = false){
         "Jumbo": "7: Jumbo"
     }
     
+    var ret = "??: Unknown";
+
     if (input in vals){
-        var ret =  vals[input];
-    } else {
-        var ret =  "??: Unknown";
+        ret =  vals[input];
     }
 
     if (just_number){
